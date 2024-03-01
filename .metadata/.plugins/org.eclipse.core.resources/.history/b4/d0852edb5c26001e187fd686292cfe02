@@ -1,0 +1,23 @@
+<html>
+<head><title> Student registration form</title></head>
+
+<body>
+<form action="student_radio_respone2.jsp">
+<h1>First Name: <input type="Text" name="First_name"/></h1>
+<br/><br/>
+
+Last Name: <input type="Text" name="Last_name"/>
+<br/><br/>
+Favorite Programming Language:<br/>
+<input type="radio" name="favoritelanguage" value="java">java
+<input type="radio" name="favoritelanguage" value="Python">Python
+<input type="radio" name="favoritelanguage" value="C#">C#
+<input type="radio" name="favoritelanguage" value="Ruby">Ruby
+<br/><br/>
+
+<input type="submit" value="Submit"/>
+
+</form>
+
+</body>
+</html>

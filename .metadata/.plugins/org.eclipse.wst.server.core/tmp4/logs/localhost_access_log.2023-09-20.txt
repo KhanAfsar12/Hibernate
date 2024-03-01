@@ -1,0 +1,5 @@
+127.0.0.1 - - [20/Sep/2023:14:41:53 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [20/Sep/2023:14:41:54 +0530] "GET /UnknownLogin/index.html HTTP/1.1" 200 328
+0:0:0:0:0:0:0:1 - - [20/Sep/2023:14:41:55 +0530] "GET /favicon.ico HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [20/Sep/2023:15:37:35 +0530] "GET /servletdemo/servlet/com.luv2code.servletdemo.HelloWorldServlet HTTP/1.1" 404 822
+0:0:0:0:0:0:0:1 - - [20/Sep/2023:15:37:49 +0530] "GET /servletdemo/hello HTTP/1.1" 404 773

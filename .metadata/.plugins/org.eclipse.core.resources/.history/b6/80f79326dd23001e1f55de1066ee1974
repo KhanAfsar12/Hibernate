@@ -1,0 +1,13 @@
+<html>
+<body>
+
+<h2>Jsp built in object</h2>
+
+request user name: <%= request.getHeader("User-name") %>
+<br/><br/>
+
+request Language: <%= request.getLocale() %>
+
+</body>
+
+</html>

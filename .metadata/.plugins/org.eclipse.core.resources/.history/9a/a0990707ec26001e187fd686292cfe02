@@ -1,0 +1,20 @@
+<html>
+<head><title>Student registration form</title></head>
+
+<body>
+<form action="student_checkbox_form.jsp">
+First Name:<input type="text" name="first_name"/>
+<br/><br/>
+Last Name:<input type="text" name="last_name"/>
+<br/><br/>
+
+Favorite Programming Language is:<br/>
+<input type="checkbox" name="favoritelanguage" value="Java">
+<input type="checkbox" name="favoritelanguage" value="C#">
+<input type="checkbox" name="favoritelanguage" value="C++">
+<input type="checkbox" name="favoritelanguage" value="C">
+
+</form>
+
+</body>
+</html>

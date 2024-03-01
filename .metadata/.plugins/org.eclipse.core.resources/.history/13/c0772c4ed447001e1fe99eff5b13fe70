@@ -1,0 +1,16 @@
+package basic_java;
+
+import java.util.Random;
+
+public class oman {
+	public static void main(String[] args) {
+        oman random = new oman();
+        int number = random.nextInt(10); // This will generate a random integer between 0 and 9.
+        System.out.println(number);
+    }
+
+	private int nextInt(int i) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+}

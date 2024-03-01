@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:context="http://www.springframework.org/schema/context"
+xmlns:p="http://www.springframework.org/schema/p"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context.xsd">
+
+<bean name="emp1" class="com.spring.collection.Emp">
+<property name="name" value="Afsar"/>
+
+<property name="phones">
+<list>
+<value>9967034517</value>
+<value>9930307455</value>
+<value>3294628234</value>
+</list>
+</property>
+
+<property name="addresses">
+<set>
+<value>Mumbai</value>
+<value>Lucknow</value>
+<value>Delhi</value>
+</set>
+</property>
+
+<property name="courses">
+<map>
+<entry key="Java" value="6 months"/>
+<entry key="Python" value="3 months"/>
+<entry key="JavaScript" value="4 months"/>
+</map>
+</property>
+
+</bean>
+
+<bean name="emp2" class="com.spring.collection.Emp">
+<property name="name" value="Afsar"/>
+
+<property name="phones">
+<list>
+<value>9967034517</value>
+<value>9930307455</value>
+<value>3294628234</value>
+</list>
+</property>
+
+<property name="addresses">
+<set>
+<value>Mumbai</value>
+<value>Lucknow</value>
+<value>Delhi</value>
+</set>
+</property>
+
+<property name="courses">
+<map>
+<entry key="Java" value="6 months"/>
+<entry key="Python" value="3 months"/>
+<entry key="JavaScript" value="4 months"/>
+</map>
+</property>
+
+</bean>
+
+<bean class="com.spring.collection.PDF" name="Demo">
+<property name="name" value="Afsar"/>
+<property name="phones">
+<list>
+<value>9967034517</value>
+<value>8452927930</value>
+<value>8136398021</value>
+</list>
+</property>
+
+<property name="address">
+<set>
+<value>Saki Naka</value>
+<value>Saki Naka</value>
+<value>Saki Naka</value>
+</set>
+</property>
+
+<property name="courses">
+<map>
+<entry key="Java" value="6 months"/>
+<entry key="Python" value="2 months"/>
+<entry key="JavaScript" value="2 months"/>
+</map>
+</property>
+
+<property name="props">
+<props>
+<prop key="name">Afsar Khan</prop>
+<prop key="Channel">CodewithAfsar</prop>
+</props>
+</property>
+</bean>
+</beans>
